@@ -834,7 +834,7 @@ h1, h2, h3, h4 {
   
   .section-label, .section-title, .about-grid p{display: flex; justify-content: center; }
 
-  #selected-w, #getin-t{font-size: 25px; color: green;}
+  #selected-w, #getin-t{font-size: 25px;}
 
   .hero-name { font-size: clamp(3rem, 14vw, 4.5rem); }
 
