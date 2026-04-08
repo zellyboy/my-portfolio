@@ -858,4 +858,12 @@ h1, h2, h3, h4 {
   color: var(--accent);
   background: var(--accent-glow);
 }
+.hero-role{
+  display:flex;
+  justify-content: center;
+}
+.hero-greeting{
+  display:flex;
+  justify-content: center;
+}
 }
