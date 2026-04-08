@@ -829,7 +829,7 @@ h1, h2, h3, h4 {
 }
 
 /* Mobile */
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   .section { padding: 70px 0; }
 
   .hero-name { font-size: clamp(3rem, 14vw, 4.5rem); }
