@@ -830,7 +830,11 @@ h1, h2, h3, h4 {
 
 /* Mobile */
 @media (max-width: 560px) {
-  .section { padding: 70px 0; }
+  .section { padding: 70px 0;}
+  
+  .section-label, .section-title{display: flex; justify-content: center; }
+
+  #selected-w, #getin-t{font-size: 25px;}
 
   .hero-name { font-size: clamp(3rem, 14vw, 4.5rem); }
 
