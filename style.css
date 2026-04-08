@@ -829,7 +829,7 @@ h1, h2, h3, h4 {
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 560px) {
   .section { padding: 70px 0; }
 
   .hero-name { font-size: clamp(3rem, 14vw, 4.5rem); }
@@ -842,4 +842,20 @@ h1, h2, h3, h4 {
   .timeline { padding-left: 20px; }
 
   .scroll-hint { display: none; }
+
+  .role-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 35px;
+  font-size: .7rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 99px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: var(--accent-glow);
+}
 }
