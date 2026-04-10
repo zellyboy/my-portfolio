@@ -347,18 +347,27 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
   align-items: center;
   gap: .75rem;
+  color: var(--accent1);
   margin-bottom: 24px;
+  background-color: transparent;
 }
 
-.role-tag {
+.role-tag{
   font-size: .8rem;
   letter-spacing: .12em;
   text-transform: uppercase;
   padding: 5px 14px;
   border-radius: 99px;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  background: var(--accent-glow);
+  border: 1px solid var(--accent1);
+  color: var(--accent1) !important;
+  background: transparent !important;
+}
+
+.role-tag:hover{
+   border-color: var(--accent2);
+   color: var(--accent2) !important;
+   cursor: pointer;
+   transform: translateY(-2px);
 }
 
 .role-divider { color: var(--text-muted); }
@@ -522,7 +531,7 @@ h1, h2, h3, h4 {
   transition: transform .25s, box-shadow .25s, border-color .25s;
 }
 .project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-8px)!important;
   box-shadow: var(--shadow);
   border-color: var(--accent);
 }
@@ -537,11 +546,16 @@ h1, h2, h3, h4 {
   font-size: .7rem;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: var(--accent-glow);
+  color: var(--accent1) !important;
+  background: transparent;
   border: 1px solid var(--accent);
   padding: 3px 10px;
   border-radius: 99px;
+  outline: var(--accent1) !important;
+}
+.card-category:hover{
+     background: var(--accent-glow) !important;
+     /* color: var() */
 }
 
 .card-links { display: flex; gap: 10px; }
@@ -851,7 +865,6 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: center;
   }
-
 
   .role-tag {
   display: flex;
