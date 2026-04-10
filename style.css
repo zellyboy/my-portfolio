@@ -847,6 +847,12 @@ h1, h2, h3, h4 {
 
   .scroll-hint { display: none; }
 
+  .techstack-title{
+    display: flex;
+    justify-content: center;
+  }
+
+
   .role-tag {
   display: flex;
   justify-content: center;
